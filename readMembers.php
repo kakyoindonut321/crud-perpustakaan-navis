@@ -71,7 +71,7 @@
     <div class="py-5 text-center">
       <h2>Data Member</h2>
       <p class="lead">Halaman ini memuat seluruh member yang ada di database</p>
-      <a href="inputMember.php" class="btn btn-primary my-2">Tambah member</a>
+      <a href="inputMember.php" class="btn btn-danger my-2">Tambah member</a>
     </div>
 
     <div class="row g-5">
@@ -120,7 +120,7 @@
                         echo "</tr>";
                     }
                 } else {
-                    echo "0 results";
+                  echo "<h6 style='text-align: center;' class='text-danger'>*Tidak ada data, tambahkan data dengan meng-klik tombol diatas</h6>";
                 }
 
                 $conn->close();

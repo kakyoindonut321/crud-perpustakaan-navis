@@ -123,15 +123,13 @@ if ($conn->connect_error) {
                 </select>
             </div>
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Pinjam buku</button>
+          <button class="w-100 btn btn-danger btn-lg" type="submit">Pinjam buku</button>
         </form>
       </div>
     </div>
   </main>
 
   <?php
-  include 'variable.php';
-  $variant = variable();
     but();
   ?>
 

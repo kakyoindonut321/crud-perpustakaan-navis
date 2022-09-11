@@ -103,7 +103,7 @@
               </div>
             </div>
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Tambahkan member</button>
+          <button class="w-100 btn btn-danger btn-lg" type="submit">Tambahkan member</button>
         </form>
       </div>
     </div>

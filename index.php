@@ -156,7 +156,7 @@ if ($conn->query($borrow_sql) === TRUE) {
         <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">Web Perpustakaan</h1>
-                <p class="lead text-muted">Website ini bisa mempermudah proses menyimpan data pinjam meminjam buku</p>
+                <p class="lead text-muted">Website ini bisa mempermudah proses mencatat pinjam meminjam buku</p>
                 <p>
                     <a href="readBooks.php" class="btn btn-danger my-2">Buku</a>
                     <a href="readMembers.php" class="btn btn-danger my-2">Member</a>

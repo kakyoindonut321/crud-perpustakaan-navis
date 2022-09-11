@@ -105,8 +105,8 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 <div class="container">
   <main>
     <div class="py-5 text-center">
-      <h2>Menyunting Buku</h2>
-      <p class="lead">Silakan isi data buku yang akan diperbaharui di database.</p>
+      <h2>Menyunting catatan pinjaman</h2>
+      <p class="lead">Silakan isi data pinjaman yang akan diperbaharui di database.</p>
     </div>
 
     <div class="row g-5">

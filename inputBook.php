@@ -105,7 +105,7 @@
               </div>
             </div>
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Tambahkan buku</button>
+          <button class="w-100 btn btn-danger btn-lg" type="submit">Tambahkan buku</button>
         </form>
       </div>
     </div>

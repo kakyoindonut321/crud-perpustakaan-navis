@@ -71,7 +71,7 @@
     <div class="py-5 text-center">
       <h2>Data peminjaman buku</h2>
       <p class="lead">Halaman ini memuat seluruh buku yang ada dipinjam</p>
-      <a href="inputBorrow.php" class="btn btn-primary my-2">Pinjam buku</a>
+      <a href="inputBorrow.php" class="btn btn-danger my-2">Pinjam buku</a>
     </div>
 
     <div class="row g-5">
@@ -120,7 +120,7 @@
                         echo "</tr>";
                     }
                 } else {
-                    echo "0 results";
+                  echo "<h6 style='text-align: center;' class='text-danger'>*Tidak ada data, tambahkan data dengan meng-klik tombol diatas</h6>";
                 }
 
                 $conn->close();
