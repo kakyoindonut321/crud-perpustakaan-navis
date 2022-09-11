@@ -20,7 +20,7 @@ if (isset($_GET['borrow_id'])) {
     $result = $conn->query($sql);
 
     if ($conn->query($sql) === TRUE) {
-    echo "borrow deleted successfully";
+    echo "<script>console.log('Borrow deleted successfully')</script>";
     } else {
     echo "Error deleting borrow: " . $conn->error;
     }
@@ -88,6 +88,14 @@ if (isset($_GET['borrow_id'])) {
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+      .container {
+        background-color: white;
+        box-shadow: 0px 5px 10px;
+        border-radius: 10px;
+      }
+      body {
+        background-image: linear-gradient(to right, red, blue, green )
+      }
     </style>
 
     
@@ -96,12 +104,13 @@ if (isset($_GET['borrow_id'])) {
   </head>
   <body class="bg-light">
     
-<div class="container">
+<div class="container mt-4">
   <main>
     <div class="py-5 text-center">
       <h2>Menghapus data buku pinjaman</h2>
       <p class="lead">Buku pinjaman berhasil dihapus</p>
     </div>
+    <a href="readBorrow.php" class="d-flex justify-content-center btn btn-lg btn-danger my-1 mx-5" >Kembali</a>
 
   </main>
 

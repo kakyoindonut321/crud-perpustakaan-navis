@@ -142,25 +142,39 @@ if ($conn->query($borrow_sql) === TRUE) {
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+      .big {
+        background-color: white;
+        box-shadow: 0px 5px 10px;
+        border-radius: 10px;
+
+      }
+      body {
+        background-image: linear-gradient(to right, red, blue, green )
+      }
+      .btn {
+        -webkit-box-shadow: 0px 3px 0px rgba(4, 4, 4, 0.3);
+      }
+    
     </style>
 
     
     <!-- Custom styles for this template -->
     <link href="form-validation.css" rel="stylesheet">
   </head>
-  <body class="bg-light">
+  <body class="">
 
-<div class="container">
+<div class="big container mt-5">
   <main>
     <section class="py-5 text-center container">
-        <div class="row py-lg-5">
+        <div class="row py-lg-2">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">Web Perpustakaan</h1>
                 <p class="lead text-muted">Website ini bisa mempermudah proses mencatat pinjam meminjam buku</p>
                 <p>
-                    <a href="readBooks.php" class="btn btn-danger my-2">Buku</a>
-                    <a href="readMembers.php" class="btn btn-danger my-2">Member</a>
-                    <a href="readBorrow.php" class="btn btn-danger my-2">Pinjaman Buku</a>
+                    <a href="readBooks.php" class=" btn btn-box-shadow btn-lg btn-danger my-5 mx-2">Buku</a>
+                    <a href="readMembers.php" class="btn btn-lg btn-danger my-5 mx-2">Member</a>
+                    <a href="readBorrow.php" class="btn btn-lg btn-danger my-5 mx-2">Pinjam</a>
                 </p>
             </div>
         </div>

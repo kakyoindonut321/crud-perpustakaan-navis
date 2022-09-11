@@ -58,6 +58,18 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+      .container {
+        background-color: white;
+        box-shadow: 0px 5px 10px;
+        border-radius: 10px;
+
+
+      }
+
+      body {
+        background-image: linear-gradient(to right, red, blue, green )
+      }
     </style>
 
     
@@ -66,7 +78,7 @@
   </head>
   <body class="bg-light">
     
-<div class="container">
+<div class="container mt-4">
   <main>
     <div class="py-5 text-center">
       <h2>Data Buku</h2>
@@ -113,7 +125,7 @@
                         echo "<td>".$row['title']."</td>";
                         echo "<td>".$row['author']."</td>";
                         echo "<td>".$row['published_date']."</td>";
-                        echo "<td>"."<a type='button' class='btn btn-primary' href='updateBook.php?book_id=".$row['book_id']."'>Update</button>"."</td";
+                        echo "<td>"."<a type='button' class='btn btn-primary' style='margin-right: 5px;' href='updateBook.php?book_id=".$row['book_id']."'>Update</button>"."</td";
                         echo "<td>"."<a type='button' class='btn btn-danger' href='deleteBook.php?book_id=".$row['book_id']."'>Hapus</button>"."</td";
                         echo "</tr>";
                     }

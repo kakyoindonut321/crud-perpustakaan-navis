@@ -58,6 +58,17 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+      .container {
+        background-color: white;
+        box-shadow: 0px 5px 10px;
+        border-radius: 10px;
+
+      }
+
+      body {
+        background-image: linear-gradient(to right, red, blue, green )
+      }
     </style>
 
     
@@ -66,7 +77,7 @@
   </head>
   <body class="bg-light">
     
-<div class="container">
+<div class="container mt-4">
   <main>
     <div class="py-5 text-center">
       <h2>Data Member</h2>
@@ -115,7 +126,7 @@
                         echo "<td>".$row['last_name']."</td>";
                         echo "<td>".$row['email']."</td>";
                         echo "<td>".$row['register_date']."</td>";
-                        echo "<td>"."<a type='button' class='btn btn-primary' href='updateMember.php?member_id=".$row['member_id']."'>Update</button>"."</td";
+                        echo "<td>"."<a type='button' class='btn btn-primary' style='margin-right: 5px;' href='updateMember.php?member_id=".$row['member_id']."'>Update</button>"."</td";
                         echo "<td>"."<a type='button' class='btn btn-danger' href='deleteMember.php?member_id=".$row['member_id']."'>Hapus</button>"."</td";
                         echo "</tr>";
                     }

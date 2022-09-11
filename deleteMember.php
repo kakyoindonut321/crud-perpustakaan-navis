@@ -20,7 +20,7 @@ if (isset($_GET['member_id'])) {
     $result = $conn->query($sql);
 
     if ($conn->query($sql) === TRUE) {
-    echo "member deleted successfully";
+    echo "<script>console.log('Member deleted successfully')</script>";
     } else {
     echo "Error deleting member: " . $conn->error;
     }
@@ -89,6 +89,14 @@ if (isset($_GET['member_id'])) {
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+      .container {
+        background-color: white;
+        box-shadow: 0px 5px 10px;
+        border-radius: 10px;
+      }
+      body {
+        background-image: linear-gradient(to right, red, blue, green )
+      }
     </style>
 
     
@@ -97,12 +105,13 @@ if (isset($_GET['member_id'])) {
   </head>
   <body class="bg-light">
     
-<div class="container">
+<div class="container mt-4">
   <main>
     <div class="py-5 text-center">
       <h2>Menghapus member</h2>
       <p class="lead">Member berhasil dihapus</p>
     </div>
+    <a href="readMembers.php" class="d-flex justify-content-center btn btn-lg btn-danger my-1 mx-5" >Kembali</a>
 
   </main>
 

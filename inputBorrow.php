@@ -75,6 +75,13 @@ if ($conn->connect_error) {
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+      .container {
+        background-color: white;
+        box-shadow: 0px 5px 10px;
+      }
+      body {
+        background-image: linear-gradient(to right, red, blue, green )
+      }
     </style>
 
     
@@ -83,7 +90,7 @@ if ($conn->connect_error) {
   </head>
   <body class="bg-light">
     
-<div class="container">
+<div class="container px-5 pb-1">
   <main>
     <div class="py-5 text-center">
       <h2>Pinjam buku</h2>

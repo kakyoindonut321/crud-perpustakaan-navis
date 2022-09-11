@@ -9,7 +9,7 @@ function variable() {
 
 function but() {
     echo "
-    <footer class='my-5 pt-5 text-muted text-center text-small'>
+    <footer class='my-5 pt-5 pb-3 text-muted text-center text-small'>
     <p class='mb-1'>&copy; 2017–2022 Copyright© Muhammad Rifqi Navis</p>
     <ul class='list-inline'>
       <li class='list-inline-item'><a href='#'>Privacy</a></li>
