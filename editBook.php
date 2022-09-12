@@ -107,6 +107,9 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
+
+header("Location: localhost/readBooks.php");
+die();
 ?>
 </body>
 </html>
