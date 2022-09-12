@@ -96,6 +96,9 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
+
+header('location: readBooks.php');
+die();
 ?>
 </body>
 </html>

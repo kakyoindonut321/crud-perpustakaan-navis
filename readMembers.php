@@ -144,7 +144,9 @@
       </div>
     </div>
   </main>
-
+  <div class="pt-5 text-center">
+    <a href="index.php" class="btn btn-sm btn-danger">Kembali</a>
+    </div>
   <?php
     but();
   ?>

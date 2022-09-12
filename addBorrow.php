@@ -76,6 +76,8 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
+header('location: readBorrow.php');
+die();
 ?>
 </body>
 </html>

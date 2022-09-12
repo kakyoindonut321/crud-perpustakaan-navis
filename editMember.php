@@ -107,6 +107,8 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
+header('location: readMember.php');
+die();
 ?>
 </body>
 </html>

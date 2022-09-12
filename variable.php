@@ -12,9 +12,9 @@ function but() {
     <footer class='my-5 pt-5 pb-3 text-muted text-center text-small'>
     <p class='mb-1'>&copy; 2017–2022 Copyright© Muhammad Rifqi Navis</p>
     <ul class='list-inline'>
-      <li class='list-inline-item'><a href='#'>Privacy</a></li>
-      <li class='list-inline-item'><a href='#'>Terms</a></li>
-      <li class='list-inline-item'><a href='#'>Support</a></li>
+      <li class='list-inline-item'><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Privacy</a></li>
+      <li class='list-inline-item'><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Terms</a></li>
+      <li class='list-inline-item'><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Support</a></li>
     </ul>
   </footer>
     ";

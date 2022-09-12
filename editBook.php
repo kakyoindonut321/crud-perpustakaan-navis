@@ -108,7 +108,7 @@ function test_input($data) {
   return $data;
 }
 
-header("Location: localhost/readBooks.php");
+header("Location: readBooks.php");
 die();
 ?>
 </body>
